@@ -1,0 +1,18 @@
+{
+  "name": "acadewise_backend",
+  "version": "1.0.0",
+  "description": "```{bash}\r - /src\r   - /pages\r     - /api\r       - auth.js           // Authentication API route\r       - payment.js        // Payment processing API route\r       - file.js           // File upload and sharing API route\r       - admin.js          // Admin panel API route\r     - /_app.js            // Custom App component for global styles and layout\r     - /_document.js       // Custom Document component for server-rendered pages\r     - index.js            // Landing page\r     - login.js            // Login page\r     - signup.js           // Signup page\r     - forgot-password.js  // Forgot password page\r     - blogs\r       - [slug].js         // Dynamic route for individual blog posts\r     - services\r       - [slug].js         // Dynamic route for individual services\r     - jobs\r       - [slug].js         // Dynamic route for individual job listings\r   - /config\r     - db.js               // Database connection configuration\r     - firebase.js         // Firebase configuration\r     - stripe.js           // Stripe configuration (if applicable)\r     - paypal.js           // PayPal configuration (if applicable)\r   - /controllers\r     - authController.js   // User authentication controllers\r     - paymentController.js // Payment processing controllers\r     - fileController.js   // File upload and sharing controllers\r     - adminController.js  // Admin panel controllers\r   - /middlewares\r     - authMiddleware.js   // Authentication middleware\r     - validationMiddleware.js // Input validation middleware\r   - /models\r     - User.js             // User model\r     - Blog.js             // Blog model\r     - Service.js          // Service model\r     - Payment.js          // Payment model\r     - Link.js             // Link model\r     - File.js             // File model\r     - Policy.js           // Policy model\r     - Job.js              // Job model\r   - /services\r     - authService.js      // Authentication service\r     - paymentService.js   // Payment processing service\r     - fileService.js      // File upload and sharing service\r     - adminService.js     // Admin panel service\r   - /utils\r     - constants.js        // Constants and configuration values\r     - errorHandler.js     // Error handling utility\r     - validator.js        // Input validation utility\r   - /public\r     - /uploads            // Folder for uploaded files\r     - /img                // Folder for images\r     - /css                // Folder for stylesheets\r     - // Other public files (e.g., favicon.ico)\r   - server.js             // Main server file",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  }
+}
